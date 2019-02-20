@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sms-jamgph", "sms-jamgph\sms-jamgph.csproj", "{EF7483F4-F21E-445B-A198-DA1E99F08D91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF7483F4-F21E-445B-A198-DA1E99F08D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7483F4-F21E-445B-A198-DA1E99F08D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7483F4-F21E-445B-A198-DA1E99F08D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7483F4-F21E-445B-A198-DA1E99F08D91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F5B8F8E-3AFB-4C42-B087-18E39E903DC5}
+	EndGlobalSection
+EndGlobal
