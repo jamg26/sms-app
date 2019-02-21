@@ -26,7 +26,7 @@ namespace sms_jamgph
         private void sendBtn_Click(object sender, EventArgs e)
         {
             sendBtn.Hide();
-            string[] err = {"Message Sent!", "Invalid Number", "Number not supported", "Invalid API Code", "Only 10 sms per day", "Too many message characters", "System Offline", "Expired API Code", "Error", "Cannot be empty", "Recipients mobile has been blocked", "Invalid Request", "Invalid sender ID", "Invalid Server Number"};
+            string[] err = { "Message Sent!", "Invalid Number", "Number not supported", "Invalid API Code", "Only 10 sms per day", "Too many message characters", "System Offline", "Expired API Code", "Error", "Cannot be empty", "Recipients mobile has been blocked", "Invalid Request", "Invalid sender ID", "Invalid Server Number" };
             dynamic result = itexmo(no, msg, api);
             int res = Convert.ToInt32(result);
             MessageBox.Show(err[res]);
@@ -38,10 +38,21 @@ namespace sms_jamgph
             msg = txtMsg.Text + "\n\n\n\n\n\n\nhttps://jamgph.com";
         }
 
-        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            api = txtApi.Text;
+            this.Close();
         }
+
+        private void listBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            api = apiBox.Text;
+        }
+        
 
         public object itexmo(string Number, string Message, string API_CODE)
         {
