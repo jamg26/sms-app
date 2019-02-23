@@ -30,6 +30,9 @@ namespace sms_jamgph
             dynamic result = itexmo(no, msg, api);
             int res = Convert.ToInt32(result);
             MessageBox.Show(err[res]);
+            txtNo.Text = "";
+            txtMsg.Text = "";
+
             sendBtn.Show();
         }
 
